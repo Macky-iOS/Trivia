@@ -1,4 +1,7 @@
 
+
+//MARK:- Core Data functionality
+
 import Foundation
 import CoreData
 

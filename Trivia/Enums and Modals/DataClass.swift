@@ -1,6 +1,9 @@
 
 import UIKit
 
+//MARK:- This class is just made so that we can get data in the format of JSON so if any data come from the API it can get processed and we don't have to change anything. This is basically the raw assuption of data coming from API.
+
+
 class DataClass{
     static func setFirstQuestion() -> [String: Any]{
         let param: [String: Any] = ["question": "Who is the best cricketer in the world?",

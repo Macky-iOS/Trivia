@@ -39,16 +39,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "8978502B-0ADB-426F-91FE-10FAD2E58DD3"
+            uuid = "C0715A4C-4D97-4DC6-A22C-0FA4CE72B202"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "Trivia/Controllers/AskQuestionsVC.swift"
+            filePath = "Trivia/Controllers/ConfirmUserNameVC.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
-            landmarkName = "collectionView(_:layout:sizeForItemAt:)"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "checkValidations()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

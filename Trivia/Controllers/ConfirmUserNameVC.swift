@@ -1,17 +1,11 @@
-//
-//  ConfirmUserNameVC.swift
-//  Trivia
-//
-//  Created by Mayank Sharma  on 10/10/21.
-//
 
 import UIKit
 
-class ConfirmUserNameVC: UIViewController {
+final class ConfirmUserNameVC: UIViewController {
 
     //MARK:- Outlet and Variables
-    @IBOutlet weak var txtFldName: UITextField!
-    @IBOutlet weak var btnNextOutlet: UIButton!
+    @IBOutlet private weak var txtFldName: UITextField!
+    @IBOutlet private weak var btnNextOutlet: UIButton!
     private var gameResult = GameResult()
     
     //MARK:- Controller Life Cycle Methods
@@ -30,9 +24,11 @@ class ConfirmUserNameVC: UIViewController {
     
     private func checkValidations(){
         if txtFldName.text == ""{
-            showAlert(message: "Please enter your name to proceed any further.")
+            showAlert(message: ConstantsStrings.Stringss.needNameMessage)
         }else{
             gameResult.name = txtFldName.text ?? ""
+            gameResult.date = Date.getLocalDate(format: .date)
+            gameResult.time = Date.getLocalDate(format: .time)
             let vc = AskQuestionsVC.instantiateFrom(storyboard: .main)
             vc.gameResult = gameResult
             self.navigationController?.pushViewController(vc, animated: true)

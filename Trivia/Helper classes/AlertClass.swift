@@ -1,4 +1,7 @@
 
+//MARK:- Class Used for simplifying UiAlert
+
+
 import UIKit
 
 extension UIViewController{

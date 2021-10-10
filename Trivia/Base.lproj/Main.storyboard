@@ -195,7 +195,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Here are the answers selected:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qcW-H3-TJV">
-                                <rect key="frame" x="20" y="189.5" width="374" height="20.5"/>
+                                <rect key="frame" x="20" y="139.5" width="374" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -249,7 +249,7 @@
                                 </subviews>
                             </stackView>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JMc-c2-qdA">
-                                <rect key="frame" x="20" y="225" width="394" height="507"/>
+                                <rect key="frame" x="20" y="175" width="394" height="557"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dataSource" destination="Ff3-L6-MI5" id="pFf-Eg-QrU"/>
@@ -262,7 +262,7 @@
                         <constraints>
                             <constraint firstItem="qcW-H3-TJV" firstAttribute="centerX" secondItem="j0S-KI-3cE" secondAttribute="centerX" id="1xU-hF-0fa"/>
                             <constraint firstItem="Cmt-Fw-c1Q" firstAttribute="bottom" secondItem="L2A-KG-b0C" secondAttribute="bottom" constant="10" id="622-b6-jfd"/>
-                            <constraint firstItem="qcW-H3-TJV" firstAttribute="top" secondItem="xev-ex-ivt" secondAttribute="bottom" constant="100" id="7fH-cA-XPj"/>
+                            <constraint firstItem="qcW-H3-TJV" firstAttribute="top" secondItem="xev-ex-ivt" secondAttribute="bottom" constant="50" id="7fH-cA-XPj"/>
                             <constraint firstItem="JMc-c2-qdA" firstAttribute="leading" secondItem="Cmt-Fw-c1Q" secondAttribute="leading" constant="20" id="IsD-co-tKZ"/>
                             <constraint firstItem="Cmt-Fw-c1Q" firstAttribute="trailing" secondItem="JMc-c2-qdA" secondAttribute="trailing" id="KBi-d9-x1F"/>
                             <constraint firstItem="L2A-KG-b0C" firstAttribute="top" secondItem="JMc-c2-qdA" secondAttribute="bottom" constant="10" id="V4j-yF-Hmi"/>
@@ -354,7 +354,6 @@
         <!--Navigation Controller-->
         <scene sceneID="wef-98-cdT">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="sSE-zj-C7a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="g1k-ug-YVd" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Krk-eB-2Jd">
@@ -365,6 +364,7 @@
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="fAg-An-C2y"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sSE-zj-C7a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1968.1159420289857" y="-21.428571428571427"/>
         </scene>

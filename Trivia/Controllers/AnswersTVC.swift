@@ -1,11 +1,11 @@
 
 import UIKit
 
-class AnswersTVC: UITableViewCell {
+final class AnswersTVC: UITableViewCell {
 
     //MARK:- Outlets
-    @IBOutlet weak var lblQuestion: UILabel!
-    @IBOutlet weak var lblAnswer: UILabel!
+    @IBOutlet private weak var lblQuestion: UILabel!
+    @IBOutlet private weak var lblAnswer: UILabel!
     
     func configure(data: QuestionAnswerSet){
         lblQuestion.text = data.question

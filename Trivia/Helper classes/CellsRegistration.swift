@@ -1,4 +1,7 @@
 
+//MARK:- It is visible that I have use table/colloection view cells so this is just a class I made so that I don't have to write all that bulky code everytime to initialize any cell or registering any XIB.
+
+
 import UIKit
 
 protocol Registerable {

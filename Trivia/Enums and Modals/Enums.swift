@@ -16,3 +16,11 @@ extension OptionType{
         }
     }
 }
+
+
+enum ConstantsStrings{
+    enum Stringss{
+        static let needNameMessage = "Please enter your name to proceed any further."
+        static let needOptionMessage = "Please select atleast one of the following options to proceed"
+    }
+}

@@ -18,7 +18,7 @@ final class QuestionsCVC: UICollectionViewCell {
     @IBOutlet private weak var btnOption2: UIButton!
     @IBOutlet private weak var btnOption3: UIButton!
     @IBOutlet private weak var btnOption4: UIButton!
-    @IBOutlet weak var btnNextoutlet: UIButton!
+    @IBOutlet private weak var btnNextoutlet: UIButton!
     
     
     //MARK:- Variables and Constants

@@ -4,7 +4,7 @@ import UIKit
 final class AskQuestionsVC: UIViewController {
 
     //MARK:- Outlets and Variable
-    @IBOutlet weak var clcViewQuestions: UICollectionView!
+    @IBOutlet private weak var clcViewQuestions: UICollectionView!
     private var dataSet: [[String: Any]] = [DataClass.setFirstQuestion(), DataClass.setSecondQuestion()]
     private var questionSet = QuestionAnswerSet()
     var gameResult = GameResult()
@@ -49,7 +49,7 @@ extension AskQuestionsVC: QuestionDelegate{
         
     func nextAction(tag: Int) {
         if questionSet.answer == "" {
-            showAlert(message: "Please select atleast one of the following options to proceed")
+            showAlert(message: ConstantsStrings.Stringss.needOptionMessage)
         }else{
             gameResult.questionSet.append(questionSet)
             switch tag {

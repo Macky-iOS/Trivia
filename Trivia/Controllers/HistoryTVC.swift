@@ -4,9 +4,9 @@ import UIKit
 class HistoryTVC: UITableViewCell {
 
     //MARK:- Outlet
-    @IBOutlet weak var lblDate: UILabel!
-    @IBOutlet weak var lblName: UILabel!
-    @IBOutlet weak var tblViewAnswers: UITableView!
+    @IBOutlet private weak var lblDate: UILabel!
+    @IBOutlet private weak var lblName: UILabel!
+    @IBOutlet private weak var tblViewAnswers: UITableView!
     
     //MARK:- Variables And Constants
     private var gameResult = GameResult()

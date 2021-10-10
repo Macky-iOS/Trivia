@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EA3FB71E271314A000DEF604 /* AlertClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3FB71D271314A000DEF604 /* AlertClass.swift */; };
+		EA3FB723271338A000DEF604 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3FB722271338A000DEF604 /* Date.swift */; };
 		EA545B6B271198B40046D967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA545B6A271198B40046D967 /* AppDelegate.swift */; };
 		EA545B6D271198B40046D967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA545B6C271198B40046D967 /* SceneDelegate.swift */; };
 		EA545B72271198B40046D967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA545B70271198B40046D967 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 
 /* Begin PBXFileReference section */
 		EA3FB71D271314A000DEF604 /* AlertClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertClass.swift; sourceTree = "<group>"; };
+		EA3FB722271338A000DEF604 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		EA545B67271198B40046D967 /* Trivia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trivia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA545B6A271198B40046D967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA545B6C271198B40046D967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				EA545B9D271223C50046D967 /* StoryBoardHelper.swift */,
 				EAB9B1C8271226E1005606D9 /* CellsRegistration.swift */,
 				EA3FB71D271314A000DEF604 /* AlertClass.swift */,
+				EA3FB722271338A000DEF604 /* Date.swift */,
 				EAB9B1E62713047A005606D9 /* CoreDataClasses.swift */,
 			);
 			path = "Helper classes";
@@ -234,6 +237,7 @@
 				EA545B6D271198B40046D967 /* SceneDelegate.swift in Sources */,
 				EAB9B1D627122B68005606D9 /* Modals.swift in Sources */,
 				EA545B9327121A370046D967 /* SplashVC.swift in Sources */,
+				EA3FB723271338A000DEF604 /* Date.swift in Sources */,
 				EAB9B1E72713047A005606D9 /* CoreDataClasses.swift in Sources */,
 				EA3FB71E271314A000DEF604 /* AlertClass.swift in Sources */,
 			);

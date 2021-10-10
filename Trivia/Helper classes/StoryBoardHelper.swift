@@ -1,4 +1,6 @@
 
+//MARK:- This class is just made so that we can siimply navigation 
+
 import UIKit
 
 enum Storyboard : String {

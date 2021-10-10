@@ -2,12 +2,12 @@
 
 import UIKit
 
-class ResultVC: UIViewController {
+final class ResultVC: UIViewController {
 
     //MARK:- Outlets & Variables
-    @IBOutlet weak var lblName: UILabel!
-    @IBOutlet weak var btnfinishOutlet: UIButton!
-    @IBOutlet weak var tblViewAnswers: UITableView!
+    @IBOutlet private weak var lblName: UILabel!
+    @IBOutlet private weak var btnfinishOutlet: UIButton!
+    @IBOutlet private weak var tblViewAnswers: UITableView!
     var gameResult = GameResult()
     
     //MARK:- Controller Life Cycle Methods

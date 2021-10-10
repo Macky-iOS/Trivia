@@ -1,10 +1,10 @@
 
 import UIKit
 
-class GameHistoryVC: UIViewController {
+final class GameHistoryVC: UIViewController {
 
     //MARK:- Outlets and Variables
-    @IBOutlet weak var tblViewHistory: UITableView!
+    @IBOutlet private weak var tblViewHistory: UITableView!
     
     private var arrGameData = [GameResult]()
     
